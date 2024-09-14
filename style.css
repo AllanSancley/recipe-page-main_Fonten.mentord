@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Young";
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+    
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    width: 650px;
+    height: 1690px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 35px 35px 35px 35px; 
+    border-radius: 20px;
+}
+img {
+    border-radius: 10px;
+}
+h1 {
+    font-family: "Young";
+    font-weight: 400;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+}
+h2 {
+    font-family: "Young";
+    font-weight: 400;
+    font-size: 30px;
+    color:hsl(14, 45%, 36%);
+}
+h3 {
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 20px;
+    padding: 35px 0 0 25px;
+    line-height: 1px;
+    color: hsl(332, 51%, 32%);
+}
+.text {
+    font-family: "Outfit";
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    line-height: 22px;
+}
+.time {
+    font-family: "Outfit";
+    width: 600px;
+    height: 170px;
+    margin-top: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.time ul {
+    padding-left: 50px;
+}
+.time li {
+    padding-left: 15px;
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+}
+li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients {
+    font-family: "Outfit";
+    margin-bottom: 25px;
+}
+.ingredients li {
+    margin-left: -17px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+}
+.instructions {
+    margin-bottom: 25px;
+}
+.instructions ol li {
+    list-style: none;
+    counter-increment: number;
+    position: relative;
+}
+.instructions ol li::before {
+    content: counter(number)".";
+    color:hsl(14, 45%, 36%);
+    margin: 0 20px 0 -30px;
+    position: absolute;
+    font-weight: bold;
+}
+.instructions li {
+    font-family: "Outfit";
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+}
+.nutrition p {
+    line-height: 1px;
+    padding-bottom: 3px;
+}
+.itens-1 {
+    font-family: "Outfit";
+    display: inline-block;
+    width: 30px;
+    margin: 30px 0 0 31px;
+    color: hsl(30, 10%, 34%);
+}
+.itens-2 {
+    font-family: "Outfit";
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 272px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
