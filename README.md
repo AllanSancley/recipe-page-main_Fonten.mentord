@@ -26,8 +26,8 @@ This challenge involved creating a recipe website project, and below are some of
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution ](https://github.com/AllanSancley/recipe-page-main_Fonten.mentord.git)
+- [Live Site](https://your-live-site-url.com)
 
 ## My process
 
