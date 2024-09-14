@@ -113,4 +113,4 @@ The challenge made me see some weak points. I must dedicate myself more to impro
 
 ## Acknowledgments
 
-This [topic] (https://temasblog.com.br/como-mudar-os-elementos-ul-li/) made me overcome this challenge, which talks about the stylization of the "li" elements of the "UL" lists and "OL". I recommend reading it for anyone just starting out to improve their knowledge of CSS.
+This [topic](https://temasblog.com.br/como-mudar-os-elementos-ul-li/) made me overcome this challenge, which talks about the stylization of the "li" elements of the "UL" lists and "OL". I recommend reading it for anyone just starting out to improve their knowledge of CSS.
