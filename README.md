@@ -27,7 +27,7 @@ This challenge involved creating a recipe website project, and below are some of
 ### Links
 
 - [Solution ](https://github.com/AllanSancley/recipe-page-main_Fonten.mentord.git)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://recipe-page-main-frontendmentor.netlify.app/)
 
 ## My process
 
